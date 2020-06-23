@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>UFS</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" ufs-link="#/paginas/home.html">UFS</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado" aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#/paginas/home.html">Home <span class="sr-only">(página atual)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">A</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">B</a>
+            </li>
+                        <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Centros
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" ufs-link="#/paginas/centros/ccaa.html">CCAA</a>
+                <a class="dropdown-item" ufs-link="#/paginas/centros/ccbs.html">CCBS</a>
+                <a class="dropdown-item" ufs-link="#/paginas/centros/ccet.html">CCET</a>
+                <a class="dropdown-item" ufs-link="#/paginas/centros/ccsa.html">CCSA</a>
+                <a class="dropdown-item" ufs-link="#/paginas/centros/cech.html">CECH</a>
+              </div>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Hospitais
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" ufs-link="#/paginas/hospitais/aracaju.html">Hospital Universitário de Aracaju</a>
+                <a class="dropdown-item" ufs-link="#/paginas/hospitais/lagarto.html">Hospital Universitário de Lagarto</a>
+              </div>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Ensino
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" ufs-link="#/paginas/ensino/graduacao.html">Graduação</a>
+                <a class="dropdown-item" ufs-link="#/paginas/ensino/posGraduacao.html">Pós Graduação</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" ufs-link="#/paginas/ensino/educacaoBasica.html">Educação Básica</a>
+                <a class="dropdown-item" ufs-link="#/paginas/ensino/ead.html">Educação a Distância</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#">Desativado</a>
+            </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Pesquisar" aria-label="Pesquisar">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Pesquisar</button>
+          </form>
+        </div>
+      </nav>
+
+      <main class="p-3" ufs-link-destino></main>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/navegacao.js"></script>
+</body>
+
+</html>
